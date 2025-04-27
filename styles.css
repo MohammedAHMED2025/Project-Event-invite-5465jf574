@@ -1,0 +1,187 @@
+/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Playwrite AU SA", cursive;    
+    font-weight: 400;
+    font-style: normal;
+    
+}
+body {
+    width: 700px;
+    height: 160vh; 
+    margin: 0 auto; 
+    background-image: url(images/Watercolor_green_leaves_wreath_with_gold_circle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;    
+}
+
+.intro , .bo {
+    width: 100%;
+    text-align: center;
+    margin-top: 0%;
+    padding: 0;
+    display: block;
+}
+.intro h1 {
+    display: block;
+    font-size: 50px;
+    color: #1a99aa;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 150px;
+    padding: 0;
+    text-shadow: 2px 2px 4px #000;
+}
+.intro .R1 {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+}
+strong {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: playfair display;
+    font-weight: 900;
+    background-color: rgb(238, 0, 0);
+    border-radius: 10px;
+    border: none;
+}
+.card{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    block-size: 30%;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.card h3 {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0%;
+    padding: 10px;
+} .card p  {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: bottom;
+    align-items: baseline;
+    font-family: playfair display;
+    margin-top: 0%;
+}
+
+.location .fa-map-marker-alt {
+    color: #1a99aa;
+    font-size: 30px;
+    margin-top: 0%;
+    padding: 0px;
+    align-items: center;
+
+}
+.date .fa-calendar-alt {
+    color: #1a99aa;
+    font-size: 40px;
+    margin-top: 0%;
+    padding: 5px;
+}
+.time .fa-clock {
+    color: #1a99aa;
+    font-size: 40px;
+    margin-top: 0%;
+    padding: 5px;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+
+.s1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.bo {
+    width: 100%;
+    height: auto;
+    display:flex;
+}
+
+.bo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    empty-cells: show;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 0%;
+    flex-direction: row;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;   
+    margin-bottom: 10%;
+    padding: 0;
+}    
+
+.bo ul li p {
+    color: #f00404;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0%;
+    padding: 10px;
+}
+.bo ul li  {
+    width: 160px;
+    height: 50px;
+    background-color: #005555;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0%;
+    font-size: 12px;
+    font-weight: 400;
+}
+.bo ul li:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.fa-solid {
+    color: #e90000;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.bo ul li:hover .fa-solid {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 0%;
+    padding: 5px;
+    transition: 0.5s;
+}
